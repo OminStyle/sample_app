@@ -1,3 +1,4 @@
+include ApplicationHelper
 require 'spec_helper'
 
 def full_title(page_title)

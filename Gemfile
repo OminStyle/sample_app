@@ -9,6 +9,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'ruby_gntp'
+  #gem 'growl'
+  gem 'launchy'
 end
 # Gems used only for assets and not required
 # in production environments by default.
