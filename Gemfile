@@ -5,6 +5,10 @@ gem 'rails', '3.2.3'
 gem 'bootstrap-sass', '2.0.0'
 gem 'pg', '0.12.2'
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
@@ -12,6 +16,7 @@ group :development, :test do
   #gem 'growl'
   gem 'launchy'
 end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,6 +25,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 gem 'jquery-rails', '2.0.1'
+
 group :test do
   gem 'capybara'
 end
